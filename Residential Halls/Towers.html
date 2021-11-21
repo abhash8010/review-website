@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Towers hall</title>
+	<link rel="stylesheet" type="text/css" href="ResdTemplate.css">
+	<script type="text/javascript" src="ResdTemplate.js"></script>
+</head>
+<body>
+	<div id="home">
+
+<div id="toolbar">
+
+<img src="sidebar.png" alt="Expand Menu" onmouseenter="openMenu()" id="image">
+<p id="tooltext">
+	<a href="index.php"> Home</a>
+	<a href="#"> About us</a>
+	<a href="#"> Contact us</a>
+</p>
+</div>
+<div id="side-bar" class="sidebar" onmouseleave="closeMenu()">
+	<a href="index.php"><img src="drexel1.png" id="DrexelImg" alt="Millenium hall"></a>
+	<ol>
+		<a href="ResdOpt.html"><li>Residential Halls</li></a>
+		<a href="#"><li> Dinings</li></a>
+		<a href="#"><li> Parties</li></a>
+	</ol>
+</div>
+<div id="towerspic">
+	<img src="towers.jpeg">
+</div>
+<div id="description">
+	<h1>Towers Hall:</h1></br></br>
+	$3,180 per quarter</br>
+	Traditional Dorm style</br>
+	Tiles flooring and carpets on the corridors
+</div>
+
+<div id="list">
+	Comes With:
+	<ol type="disc">
+		<li>Wardrobe</li>
+		<li>Desk with Chairs</li>
+		<li>Twin sized bed</li>
+	</ol>
+</div>
+
+<div id="proscons">
+Pros:
+<ol type="disc">
+
+	<li>Very social environment</li>
+	<li>Spacey lounge at each floor with TVs</li>
+	<li>Big rooms</li>
+	<li>Private A/Cs</li>
+
+</ol>
+Cons:
+<ol>
+	<li>Communal bathroom</li>
+	<li>Gender based floors</li>
+
+</ol>
+
+<div id="survey">
+Review: </br></br>
+Sparsh:</br>
+	I am having a really good time at towers. The rooms are comfortably big for two people. You can adjust the temperature according to your need. The gender based flooring doesn't bother me much. Totally recommend it to other students!<br>
+	8.5/10
+</div>
+</div>
+<div class="starbox">
+		 <input type="radio" name="star" id="star1"><label for="star1"></label>
+		 <input type="radio" name="star" id="star2"><label for="star2"></label>
+		 <input type="radio" name="star" id="star3"><label for="star3"></label>
+		 <input type="radio" name="star" id="star4"><label for="star4"></label>
+		 <input type="radio" name="star" id="star5"><label for="star5"></label>
+</div>
+<br><br><br>
+<input type='hidden' name='uid' value='Anonymous'>
+<input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
+<textarea name='message' rows='8' cols='80'></textarea>
+<button type='submit' name='commentSubmit'>Comment</button>
+</div>
+</body>
+</html>

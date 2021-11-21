@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>North hall</title>
+	<link rel="stylesheet" type="text/css" href="ResdTemplate.css">
+	<script type="text/javascript" src="ResdTemplate.js"></script>
+</head>
+<body>
+	<div id="home">
+
+<div id="toolbar">
+
+<img src="sidebar.png" alt="Expand Menu" onmouseenter="openMenu()" id="image">
+<p id="tooltext">
+	<a href="index.php"> Home</a>
+	<a href="#"> About us</a>
+	<a href="#"> Contact us</a>
+</p>
+</div>
+<div id="side-bar" class="sidebar" onmouseleave="closeMenu()">
+	<a href="index.php"><img src="drexel1.png" id="DrexelImg" alt="Millenium hall"></a>
+	<ol>
+		<a href="ResdOpt.html"><li>Residential Halls</li></a>
+		<a href="#"><li> Dinings</li></a>
+		<a href="#"><li> Parties</li></a>
+	</ol>
+</div>
+<div id="resdpic">
+	<img src="north.jpg">
+</div>
+<div id="description">
+	<h1>North Hall:</h1> </br></br>
+	$3,575 per quarter</br>
+	Suite style 4-6 people</br>
+	Tiles flooring and carpets on the corridors
+</div>
+
+<div id="list">
+	Comes With:
+	<ol type="disc">
+		<li>Wardrobe</li>
+		<li>Desk with Chairs</li>
+		<li>2 extra sets of drawers </li>
+		<li>Twin sized bed</li>
+		<li>Small dresser</li>
+	</ol>
+</div>
+
+<div id="proscons">
+Pros:
+<ol type="disc">
+
+	<li>Central A/C and heating unit included</li>
+	<li>Roomy suite</li>
+	<li>Kitchen with full sized refrigerator</li>
+
+</ol>
+Cons:
+<ol>
+	<li>Need to self-clean bathroom</li>
+	<li>Higher price</li>
+
+</ol>
+
+<div id="survey">
+Review: </br></br>
+Jemi R.<br>
+	North hall is a very nice place to live. I lived in a 6-person suite and it was an amazing experience! The suites are quite roomy and one bedroom is shared by 2 people. The suites are all same-gendered although males and females can live on the same floor. We had our own kitchen (with a fridge) and bathroom (with two toilets) which was really nice. Another plus was that there were laundry rooms located on each floor. The only gripe was the expensive price. For three terms it cost me over $10k!<br>
+8/10
+
+</div>
+</div>
+<div class="starbox">
+		 <input type="radio" name="star" id="star1"><label for="star1"></label>
+		 <input type="radio" name="star" id="star2"><label for="star2"></label>
+		 <input type="radio" name="star" id="star3"><label for="star3"></label>
+		 <input type="radio" name="star" id="star4"><label for="star4"></label>
+		 <input type="radio" name="star" id="star5"><label for="star5"></label>
+</div>
+<br><br><br>
+<input type='hidden' name='uid' value='Anonymous'>
+<input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
+<textarea name='message' rows='8' cols='80'></textarea>
+<button type='submit' name='commentSubmit'>Comment</button>
+</div>
+</body>
+</html>

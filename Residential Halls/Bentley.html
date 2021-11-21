@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bentley hall</title>
+	<link rel="stylesheet" type="text/css" href="ResdTemplate.css">
+	<script type="text/javascript" src="ResdTemplate.js"></script>
+</head>
+<body>
+	<div id="home">
+
+<div id="toolbar">
+
+<img src="sidebar.png" alt="Expand Menu" onmouseenter="openMenu()" id="image">
+<p id="tooltext">
+	<a href="index.php"> Home</a>
+	<a href="#"> About us</a>
+	<a href="#"> Contact us</a>
+</p>
+</div>
+<div id="side-bar" class="sidebar" onmouseleave="closeMenu()">
+	<a href="index.php"><img src="drexel1.png" id="DrexelImg" alt="Millenium hall"></a>
+	<ol>
+		<a href="ResdOpt.html"><li>Residential Halls</li></a>
+		<a href="#"><li> Dinings</li></a>
+		<a href="#"><li> Parties</li></a>
+	</ol>
+</div>
+<div id="resdpic">
+	<img src="Bentley.jpeg">
+</div>
+<div id="description">
+	<h1>Bentley Hall:</h1> </br></br>
+	$3,3252 per quarter</br>
+	Traditional Dorm style</br>
+	Tiles flooring and carpets on the corridors
+</div>
+
+<div id="list">
+	Comes With:
+	<ol type="disc">
+		<li>Wardrobe</li>
+		<li>Desk with Chairs</li>
+		<li>Twin sized bed</li>
+		<li>Sliding windows</li>
+	</ol>
+</div>
+
+<div id="proscons">
+Pros:
+<ol type="disc">
+
+	<li>Very social environment</li>
+	<li>Honors student residence</li>
+	<li>Rentable micro fridge</li>
+	<li>Newly renovated</li>
+	<li>Spacious room</li>
+
+</ol>
+Cons:
+<ol>
+	<li>Only two elevators</li>
+	<li>Communal bathrooms</li>
+</ol>
+
+<div id="survey">
+Review: </br></br>
+Marissa:</br>
+	I loved my experience at Bentley Hall. Having it been renovated in 2019 everything is super clean. I would recommend this hall to anyone as even though they are traditional style 2 bed rooms they are quite spacious. The extra drawers make keeping all my clothes easy. The one thing I do not like though is the communal bathrooms and showers as i would prefer to have my own bathroom.<br>
+	7/10
+</div>
+</div>
+<input type='hidden' name='uid' value='Anonymous'>
+<input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
+<textarea name='message' rows='8' cols='80'></textarea>
+<button type='submit' name='commentSubmit'>Comment</button>
+</div>
+</body>
+</html>
